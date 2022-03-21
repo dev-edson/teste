@@ -1,0 +1,26 @@
+@keyFrames quica {
+    0% {
+        transform: translateY(0px);
+    }
+    
+    
+    100% {
+        transform: translateY(100%);
+        width: 320px;
+        height: 250px;
+    }
+    
+    
+}
+    
+
+.container img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    animation: quica .4s cubic-bezier(.53, -0.03, .67, 1.06);
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
