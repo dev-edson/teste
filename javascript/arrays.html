@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charser="UTF-8">
+</head>
+
+<body>
+    <script>
+        //shift: remove o primeiro item do array
+        //unshift: adiciona um ou mais itens no inicio do array
+        //slice: extrai uma seção de um array
+        //sort: ordena os itens de um array
+        //filter: filtra os itens do array
+
+        let nomeCarros = [
+            'Cruze', 'Sandero', 'Civic', 'Kicks'
+        ]
+
+        nomeCarros.shift()
+
+        console.log('Carros', nomeCarros)
+
+        nomeCarros.unshift('fusca')
+
+        console.log('Carros', nomeCarros)
+
+
+
+
+        //let teste = nomeCarros.slice(1, 4)
+        //let teste = nomeCarros.sort()
+
+        //console.log('Carros', teste)
+
+        //nomeCarros.unshift('fusca')
+
+        //console.log('Carros', nomeCarros)
+        nomeCarros = nomeCarros.filter(nomeCarros => nomeCarros.startsWith('C'))
+
+        console.log('Carros', nomeCarros)
+
+
+    </script>
+</body>
+
+</html>
