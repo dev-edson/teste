@@ -18,7 +18,7 @@ class CarroRepository {
     `
     this._bancoDeDados.query(criacaoTabelaSql, err => { tratarErro(err) })
   }
-
+  //
   async salvarCarro(carro) {
     let connection
 
