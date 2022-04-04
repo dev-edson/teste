@@ -1,14 +1,14 @@
 {
-  "name": "projeto-eldorado",
+  "name": "aula-mysql2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Edson Simões Pereira",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "mysql2": "^2.3.3"

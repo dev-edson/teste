@@ -9,5 +9,8 @@
   },
   "autor": "Edson Simões Pereira",
   "keywords": [],
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
 }
